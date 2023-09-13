@@ -17,7 +17,6 @@ use bitcoin::blockdata::transaction::ParseOutPointError;
 use bitcoin::hashes::sha256;
 use bitcoin::sighash::EcdsaSighashType as SighashType;
 use bitcoin::OutPoint;
-use bitcoin_blockchain::locks::{self, SeqNo};
 use bitcoin_hd::{DerivationSubpath, UnhardenedIndex};
 
 #[derive(Clone, PartialEq, Eq, Debug)]
